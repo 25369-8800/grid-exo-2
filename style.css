@@ -9,6 +9,7 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     grid-auto-rows: 10vh;
+    text-align: center;
 }
 
 .item1{
