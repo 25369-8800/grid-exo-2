@@ -1,0 +1,12 @@
+body{
+    background-color: yellow;
+}
+
+.item{
+    border: solid 2px black;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
