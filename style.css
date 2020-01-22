@@ -8,5 +8,23 @@ body{
 
 main{
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 2fr);
+    grid-auto-rows: 15vh;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: solid 2px black;
+}
+
+.item2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: solid 2px black
 }
