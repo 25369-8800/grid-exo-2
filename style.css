@@ -2,15 +2,11 @@ body{
     background-color: yellow;
 }
 
-.item{
-    border: solid 2px black;
-}
 
 main{
     width: 70%;
     margin: auto;
     display: grid;
-    grid-gap: 5px;
     grid-template-columns: repeat(4, 2fr);
     grid-auto-rows: 10vh;
 }
@@ -20,7 +16,9 @@ main{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-    border: solid 2px black;
+    border-left: solid 2px black;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
 }
 
 .item2{
@@ -28,19 +26,21 @@ main{
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 4;
-    border: solid 2px black
+    border: solid 2px black;
 }
 
 .item3{
     grid-row-start: 3;
     grid-row-end: 5;
-    border: solid 2px black
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    border-top: solid 0px black;
+    border-bottom: solid 0px black;
 }
 
 .item4{
     grid-row-start: 3;
     grid-row-end: 5;
-    border: solid 2px black
 }
 
 .item5{
@@ -48,14 +48,16 @@ main{
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 6;
-    border: solid 2px black
+    border-left: solid 2px black;
+    border-right: solid 2px black;
 }
 
 .item6{
     grid-column-start: 4;
     grid-row-start: 4;
     grid-row-end: 8;
-    border: solid 2px black
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
 }
 
 .item7{
@@ -63,7 +65,7 @@ main{
     grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 8;
-    border: solid 2px black
+    border: solid 2px black;
 }
 
 .item8{
@@ -71,5 +73,7 @@ main{
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 8;
-    border: solid 2px black
+    border-top: solid 2px black;
+    border-left: solid 2px black;
+    border-bottom: solid 2px black;
 }
