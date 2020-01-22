@@ -34,8 +34,6 @@ main{
     grid-row-end: 5;
     border-left: solid 2px black;
     border-right: solid 2px black;
-    border-top: solid 0px black;
-    border-bottom: solid 0px black;
 }
 
 .item4{
